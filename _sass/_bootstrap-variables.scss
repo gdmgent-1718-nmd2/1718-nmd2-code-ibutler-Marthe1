@@ -8,13 +8,22 @@
 // Color system
 //
 
-$indigo:  #6610f2;
-$primary: $indigo;
+$light_gray: #d3d3d4;
+$primary: $light_gray;
+
+$white: #ffffff;
+$secondary: $white;
+
+$gold: #d1bb1d;
+$tertiary: $gold;
+
 
 // Fonts
 //
 // Font, line-height, and color for body text, headings, and more.
 
-@import url('https://fonts.googleapis.com/css?family=Merriweather');
+@import url(https://fonts.googleapis.com/css?family=Barlow);
+$font-family-base: 'Barlow', sans-serif;
 
-$font-family-base: Merriweather, serif;
+@import url(https://fonts.googleapis.com/css?family=Satisfy);
+$font-family-quote: 'Satisfy', cursive;
