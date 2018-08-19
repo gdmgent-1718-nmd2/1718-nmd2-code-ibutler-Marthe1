@@ -8,12 +8,14 @@ h1 {
     font-family: $font-family-base;
     color: $tertiary;
     font-size: 20px;
+    padding-bottom: 5px;
 }
 
 p {
     font-family: $font-family-base;
     color: $primary;
     font-size: 16px;
+    padding-bottom: 10px;
 }
 
 .quote {
@@ -35,7 +37,14 @@ p {
 
 .gray{
     background-color: #575656;
-    height: 100vh;
+    margin-bottom: 70px;
+}
+
+.quote_home {
+    font-size: 40px;
+    vertical-align: middle;
+    padding-top: 100px;
+    padding-bottom: 100px;
 }
 
 .product {
@@ -44,10 +53,106 @@ p {
     display: block;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 20px;
+
 }
 
 .breadcrumb {
-    background-color: #313130;
+    background-color: #575656;
+    padding: 3px 3px 3px 20px;
+    border-radius: 0px;
+    margin-bottom: 50px;
+    margin-top: 20px;
+}
+
+.breadcrumb-item.active {
+    color: $tertiary;
+}
+
+.btn-primary {
+    color: #575656;
+    background-color: $tertiary;
+    text-transform: uppercase;
+    border-style: solid;
+    border-color: transparent;
+    font-weight: bold;
+    width: 45%;
+
+        &:hover {
+            background-color: #313130;
+            border: 1px;
+            border-style: solid;
+            border-color: $tertiary;
+            color: $tertiary;
+        }
+
+}
+
+
+.soort_koffie {
+    padding-top: 20px;
+    padding-bottom: 5px;
+}
+
+.button_home {
+    margin-top: 30px;
+}
+
+.button_aankoop {
+    margin-bottom: 30px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.quote_bestelling {
+    font-size: 30px;
+    margin-bottom: 40px;
+}
+
+.keuze {
+    font-size: 18px;
+    color: $secondary;
+}
+
+.form-group {
+    font-family: $font-family-base;
+    color: $primary;
+    font-size: 16px;
+}
+
+.form-inline {
+    font-family: $font-family-base;
+    color: $primary;
+    font-size: 16px;
+}
+
+.form-control {
+    border-radius: 0px;
+    border: none;
+}
+
+.toppings {
+    padding-bottom: 0px;
+}
+
+.soort_topping {
+    padding-bottom: 0px;
+}
+
+.bedanking {
+    font-size: 22px;
+    color: $secondary;
+}
+
+.maps {
+    width: 100vw;
+    height: 250px;
+}
+
+.map {
+    margin-top: 60px;
 }
 
 /* navigatie */
@@ -59,12 +164,18 @@ p {
 
 .navbar-toggler {
     border-color: $tertiary;
+    color: $tertiary;
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 30px;
+
 }
 
 .navbar {
     margin-top: 30px;
     margin-bottom: 30px;
 }
+
 
 /* footer */
 .info_footer {
@@ -75,7 +186,27 @@ p {
 
 .list_footer {
     list-style: none;
+   
 }
+
+.footer {
+    background-color: #575656;
+    margin-top: 70px;
+}
+
+
+.logo_footer {
+    max-height: 20px;
+
+}
+    
+
+.icons {
+    margin-left: 10px;
+    margin-top: 5px;
+    font-size: 25px;
+}
+
 
 
 // Small devices (landscape phones, 576px and up)
@@ -104,6 +235,15 @@ p {
         margin-top: 15px;
         margin-bottom: 15px;
     }
+
+    .quote_home {
+        font-size: 70px;
+    }
+
+    .quote_bestelling {
+        font-size: 50px;
+    }
+
 }
 
 // Extra large devices (large desktops, 1200px and up)
