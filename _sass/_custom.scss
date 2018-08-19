@@ -186,18 +186,26 @@ p {
 
 .list_footer {
     list-style: none;
+    text-align: center;
    
 }
 
 .footer {
     background-color: #575656;
     margin-top: 70px;
+    padding: 0px;
 }
+
+    a:active {
+        color: $tertiary;
+    }
 
 
 .logo_footer {
     max-height: 20px;
-
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
     
 
@@ -206,7 +214,6 @@ p {
     margin-top: 5px;
     font-size: 25px;
 }
-
 
 
 // Small devices (landscape phones, 576px and up)
