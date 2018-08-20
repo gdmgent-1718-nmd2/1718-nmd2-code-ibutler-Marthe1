@@ -182,11 +182,13 @@ p {
     font-family: $font-family-base;
     color: $primary;
     font-size: 15px;
+    line-height: 27px;
 }
 
 .list_footer {
     list-style: none;
-    text-align: center;
+    padding: 0px;
+    margin: 20px;
    
 }
 
@@ -196,10 +198,13 @@ p {
     padding: 0px;
 }
 
-    a:active {
+a:active {
         color: $tertiary;
     }
 
+a:hover {
+    text-decoration: none;
+}
 
 .logo_footer {
     max-height: 20px;
